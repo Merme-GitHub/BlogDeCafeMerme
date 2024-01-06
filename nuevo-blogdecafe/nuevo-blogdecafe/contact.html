@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="css/stylesheet.css" as="style">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preload" href="img/" as="img">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@700&display=swap" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>DeCaféBlog | Tu Blog De Café</title>
+</head>
+<body>
+    <header class="banner">
+        <div class="bar">
+            <a class="bar_title" href="index.html">DeCafé<span>Blog</span></a>
+            <div class="bar_links">
+                <a href="about.html">Nosotros</a>
+                <a href="workshop.html">Talleres</a>
+                <a href="contact.html">Contacto</a>
+            </div>
+        </div>
+        <div class="banner_text">
+            <p class="banner_textmain">Todo lo que tienes que saber del Café</p>
+            <p class="banner_textsub">Desde artículos, talleres, y mucho más</p>
+        </div>
+    </header>
+    <div class="aboutcontainer">
+        <main class="contact">
+            <h2 class="about_title">Contacto</h2>
+            <img class="contact_bg" src="./img/contacto.jpg" alt="ContactoImagen">
+            <form class="form">
+                <fieldset>
+                    <div class="campo">
+                        <label for="name" class="form_label">Nombre</label>
+                        <input class="form_input" type="text" name="name" id="name" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label for="email" class="form_label">E-mail</label>
+                        <input class="form_input" type="email" name="email" id="email" placeholder="Tu E-Mail" required>
+                    </div>
+                    <div class="campo">
+                        <label for="msg" class="form_label">Mensaje</label>
+                        <textarea class="form_textarea" name="msg" id="msg" cols="30" rows="10" placeholder="Máx. 500 carácteres" maxlength="500"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar" class="readmorebutton">
+                </fieldset>
+            </form>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="footercontent">
+            <p class="footer_title"><span>DeCafé</span>Blog</p>
+            <div class="footer_links">
+                <a href="about.html">Nosotros</a>
+                <a href="workshop.html">Talleres</a>
+                <a href="contact.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+</body>

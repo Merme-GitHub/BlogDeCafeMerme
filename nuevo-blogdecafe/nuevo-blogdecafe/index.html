@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="css/stylesheet.css" as="style">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preload" href="img/" as="img">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@700&display=swap" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>DeCaféBlog | Tu Blog De Café</title>
+</head>
+<body>
+    <header class="banner">
+        <div class="bar">
+            <a class="bar_title" href="index.html">DeCafé<span>Blog</span></a>
+            <div class="bar_links">
+                <a href="about.html">Nosotros</a>
+                <a href="workshop.html">Talleres</a>
+                <a href="contact.html">Contacto</a>
+            </div>
+        </div>
+        <div class="banner_text">
+            <p class="banner_textmain">Todo lo que tienes que saber del Café</p>
+            <p class="banner_textsub">Desde artículos, talleres, y mucho más</p>
+        </div>
+    </header>
+    <div class="bloggrid">
+        <main class="blogpage">
+            <h2>Nuestros artículos</h2>
+            <div class="article">
+                <picture>
+                    <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                    <img loading="lazy" class="article_image" src="./img/blog1.jpg" alt="FiltroDeCafé">
+                </picture>
+                <h2 class="article_title">Filtros de café que usar</h2>
+                <p class="article_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore quisquam quas nam debitis in omnis dolores ipsa, deserunt laudantium tempore eligendi placeat recusandae. Tempora consequuntur nihil, explicabo vel ea tempore?</p>
+                <a href="article.html" class="readmorebutton">Leer Más</a>
+            </div>
+            <div class="article">
+                <picture>
+                    <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                    <img loading="lazy" class="article_image" src="./img/blog2.jpg" alt="CafeLentesYLibro">
+                </picture>
+                <h2 class="article_title">Cómo disfrutar de un rico café</h2>
+                <p class="article_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore quisquam quas nam debitis in omnis dolores ipsa, deserunt laudantium tempore eligendi placeat recusandae. Tempora consequuntur nihil, explicabo vel ea tempore?</p>
+                <a href="article.html" class="readmorebutton">Leer Más</a>
+            </div>
+            <div class="article">
+                <picture>
+                    <source loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                    <img loading="lazy" class="article_image" src="./img/blog3.jpg" alt="GranosDeCafé">
+                </picture>
+                <h2 class="article_title">Los mejores granos de café que debes usar</h2>
+                <p class="article_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore quisquam quas nam debitis in omnis dolores ipsa, deserunt laudantium tempore eligendi placeat recusandae. Tempora consequuntur nihil, explicabo vel ea tempore?</p>
+                <a href="article.html" class="readmorebutton">Leer Más</a>
+            </div>
+        </main>
+        <aside class="workshoptab">
+            <h2>Nuestros talleres</h2>
+            <div class="workshopspace">
+                <h3 class="workshopspace_title">Taller del Buen Café</h3>
+                <p class="workshopspace_info">Precio: <span>Gratis</span></p>
+                <p class="workshopspace_info">Cupo: <span>40</span></p>
+                <a class="readmorebutton workshopbutton" href="#">Inscríbete</a>
+            </div>
+            <div class="workshopspace">
+                <h3 class="workshopspace_title">Taller del Filtro</h3>
+                <p class="workshopspace_info">Precio: <span>Gratis</span></p>
+                <p class="workshopspace_info">Cupo: <span>40</span></p>
+                <a class="readmorebutton workshopbutton" href="#">Inscríbete</a>
+            </div>
+        </aside>
+    </div>
+    <footer class="footer">
+        <div class="footercontent">
+            <p class="footer_title"><span>DeCafé</span>Blog</p>
+            <div class="footer_links">
+                <a href="about.html">Nosotros</a>
+                <a href="workshop.html">Talleres</a>
+                <a href="contact.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
